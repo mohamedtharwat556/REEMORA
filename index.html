@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ريمورا - خدمات تنسيق الحفلات والحناء الفاخرة. تصاميم أنيقة للخطوبة والكتب والليلة الحمراء.">
+    <meta name="keywords" content="تنسيق حفلات، حناء، خطوبة، حفلات فاخرة، كتب كتاب">
+    <meta name="author" content="ريمورا">
+    <title>ريمورا | خدمات تنسيق الحفلات والحناء الفاخرة</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+    <!-- شاشة التحميل -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader-container">
+            <img src="assets/images/logo.jpg" alt="ريمورا" class="logo-loader">
+            <div class="loader"></div>
+            <p class="loader-text">REEMORA</p>
+        </div>
+    </div>
+
+    <!-- مؤشر مخصص -->
+    <div class="custom-cursor" id="cursor"></div>
+    <div class="custom-cursor-dot" id="cursorDot"></div>
+
+    <!-- شريط التقدم -->
+    <div class="scroll-progress-bar" id="scrollProgress"></div>
+
+    <!-- شريط التنقل -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <img src="assets/images/logo.jpg" alt="ريمورا">
+                <span class="logo-text">REEMORA</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#hero" class="nav-link">الرئيسية</a>
+                <a href="#about" class="nav-link">من نحن</a>
+                <a href="#services" class="nav-link">خدماتنا</a>
+                <a href="#gallery" class="nav-link">معرض الأعمال</a>
+                <a href="#testimonials" class="nav-link">آراء العملاء</a>
+                <a href="#contact" class="nav-link">تواصلي معنا</a>
+                <a href="#booking" class="nav-cta">احجزي الآن</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- قسم الهيرو -->
+    <section class="hero" id="hero">
+        <div class="hero-background">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1400&h=900&fit=crop" alt="حفل فاخر">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-aos="fade-up">
+                أضيفي لمسةً خاصة<br><span>على أجمل لحظاتك</span>
+            </h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                تنسيق حفلات فاخر، وتصاميم حناء عريقة، وديكورات راقية لأحلى مناسباتك
+            </p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="400">
+                <a href="#booking" class="btn btn-primary">احجزي الآن</a>
+                <a href="#gallery" class="btn btn-secondary">شاهدي أعمالنا</a>
+            </div>
+        </div>
+        <div class="scroll-indicator" id="scrollIndicator"><span></span></div>
+    </section>
+
+    <!-- قسم من نحن -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">تعرّفي علينا</span>
+                <h2 class="section-title">عن <span style="font-style:italic;">REEMORA</span></h2>
+                <div class="title-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p>
+                        في ريمورا، نؤمن بأن كل مناسبة تستحق أن تكون استثنائية. بخبرة تمتد لأكثر من عقد في تنسيق الحفلات الفاخرة وفن الحناء الراقي، نحوّل لحظاتك الخاصة إلى ذكريات لا تُنسى.
+                    </p>
+                    <p>
+                        فريقنا من المحترفين يجمع بين الرؤية الفنية والاهتمام الدقيق بكل تفصيل، لنبتكر تصاميم فريدة تعكس أسلوبك وشخصيتك. من التجمعات الحميمة إلى الاحتفالات الكبرى، نضفي على كل مناسبة أناقةً وسحراً لا مثيل لهما.
+                    </p>
+                    <p>
+                        نحتفي بجمال الموروث الأصيل مع أرقى اللمسات العصرية. كل خدمة نقدمها مصممة خصيصاً لتتجاوز كل التوقعات.
+                    </p>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <img src="assets/images/logo.jpg" alt="REEMORA">
+                    <div class="about-image-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الخدمات -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">ما نقدمه</span>
+                <h2 class="section-title">خدماتنا المميزة</h2>
+                <div class="title-divider"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="service-image">
+                        <img src="images (1).jfif" alt="تنسيق الخطوبة">
+                    </div>
+                    <div class="service-content">
+                        <h3>تنسيق الخطوبة</h3>
+                        <p>حوّلي خطوبتك إلى حكاية من أحلامك بتصاميم وديكورات فاخرة لا تُنسى</p>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-image">
+                        <img src="images (2).jfif" alt="تنسيق الكتب">
+                    </div>
+                    <div class="service-content">
+                        <h3>تنسيق الكتب</h3>
+                        <p>تصاميم أنيقة وراقية تجسّد روح هذه المناسبة الإسلامية الجميلة بكل تفاصيلها</p>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-image">
+                        <img src="images (3).jfif" alt="حناء العروس">
+                    </div>
+                    <div class="service-content">
+                        <h3>حناء العروس</h3>
+                        <p>نقوش حناء مبتكرة من أيدي فنانات محترفات، تُضفي أجمل اللمسات على يوم زفافك</p>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=400&h=300&fit=crop" alt="تنسيق مناسبات خاصة">
+                    </div>
+                    <div class="service-content">
+                        <h3>تنسيق مناسبات خاصة</h3>
+                        <p>باقات مخصصة تنبع من رؤيتك وتعكس ذوقك الرفيع في كل تفصيل</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم لماذا ريمورا -->
+    <section class="why-choose" id="why-choose">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">مميزاتنا</span>
+                <h2 class="section-title">لماذا تختارين <span style="font-style:italic;">REEMORA</span>؟</h2>
+                <div class="title-divider"></div>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+                    </div>
+                    <h3>فريق محترف</h3>
+                    <p>مصمّمات حفلات وفنانات حناء متخصصات بخبرة واسعة وشغف حقيقي</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                    </div>
+                    <h3>ديكورات راقية</h3>
+                    <p>خامات فاخرة وتصاميم عصرية ترقى لأعلى معايير الجودة والأناقة</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+                    </div>
+                    <h3>تصاميم فريدة</h3>
+                    <p>كل تصميم مخصص لك وحدك، يعبّر عن شخصيتك وأحلامك</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                    </div>
+                    <h3>اهتمام بالتفاصيل</h3>
+                    <p>نعيش كل تفصيلة معك حتى تكتمل الصورة بشكل مثالي</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <h3>رضا العميلة أولاً</h3>
+                    <p>التزام كامل بتجاوز توقعاتك في كل مرحلة من مراحل التنفيذ</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <h3>حجز سريع وسهل</h3>
+                    <p>إجراءات حجز مبسطة لتأمين موعدك دون أي تعقيد</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- معرض الأعمال -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">إبداعاتنا</span>
+                <h2 class="section-title">معرض الأعمال</h2>
+                <div class="title-divider"></div>
+            </div>
+            <div class="gallery-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="engagement">الخطوبة</button>
+                <button class="filter-btn" data-filter="katb-ketab">الكتب</button>
+                <button class="filter-btn" data-filter="henna">الحناء</button>
+            </div>
+            <div class="gallery-grid">
+                <!-- صور محلية من الفولدر -->
+                <div class="gallery-item" data-category="engagement" data-aos="fade-up">
+                    <img src="images (1).jfif" alt="تنسيق خطوبة">
+                    <div class="gallery-overlay"><button class="gallery-btn" data-lightbox="images (1).jfif">عرض</button></div>
+                </div>
+                <div class="gallery-item" data-category="katb-ketab" data-aos="fade-up">
+                    <img src="images (2).jfif" alt="تنسيق كتب">
+                    <div class="gallery-overlay"><button class="gallery-btn" data-lightbox="images (2).jfif">عرض</button></div>
+                </div>
+                <div class="gallery-item" data-category="henna" data-aos="fade-up">
+                    <img src="images (3).jfif" alt="حناء العروس">
+                    <div class="gallery-overlay"><button class="gallery-btn" data-lightbox="images (3).jfif">عرض</button></div>
+                </div>
+                <!-- صور أفراح ورومانسية -->
+                <div class="gallery-item" data-category="engagement" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600&h=600&fit=crop" alt="حفل زفاف">
+                    <div class="gallery-overlay"><button class="gallery-btn" data-lightbox="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=1200&h=1200&fit=crop">عرض</button></div>
+                </div>
+                <div class="gallery-item" data-category="engagement" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=600&fit=crop" alt="زفاف رومانسي">
+                    <div class="gallery-overlay"><button class="gallery-btn" data-lightbox="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1200&h=1200&fit=crop">عرض</button></div>
+                </div>
+                <div class="gallery-item" data-category="katb-ketab" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&h=600&fit=crop" alt="تنسيق أفراح">
+                    <div class="gallery-overlay"><button class="gallery-btn" data-lightbox="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=1200&h=1200&fit=crop">عرض</button></div>
+                </div>
+                <div class="gallery-item" data-category="henna" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=600&h=600&fit=crop" alt="حناء فاخر">
+                    <div class="gallery-overlay"><button class="gallery-btn" data-lightbox="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=1200&h=1200&fit=crop">عرض</button></div>
+                </div>
+                <div class="gallery-item" data-category="engagement" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=600&h=600&fit=crop" alt="ورود الأفراح">
+                    <div class="gallery-overlay"><button class="gallery-btn" data-lightbox="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=1200&h=1200&fit=crop">عرض</button></div>
+                </div>
+                <div class="gallery-item" data-category="katb-ketab" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&h=600&fit=crop" alt="ديكور أفراح">
+                    <div class="gallery-overlay"><button class="gallery-btn" data-lightbox="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1200&h=1200&fit=crop">عرض</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الـ Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close">&times;</button>
+        <img class="lightbox-image" src="" alt="">
+        <button class="lightbox-nav prev">&#10094;</button>
+        <button class="lightbox-nav next">&#10095;</button>
+    </div>
+
+    <!-- آراء العملاء -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">قالوا عنّا</span>
+                <h2 class="section-title">آراء عميلاتنا</h2>
+                <div class="title-divider"></div>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">«ريمورا حوّلت خطوبتي إلى حلم حقيقي. كل تفصيلة كانت مثالية، والفريق كان باحترافية عالية جداً»</p>
+                    <p class="testimonial-author">— فاطمة المزروعي</p>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">«فنانات الحناء في ريمورا موهوبات بشكل لا يُصدق. نقوش حنائي كانت بالضبط كما تخيلتها وأجمل»</p>
+                    <p class="testimonial-author">— أميرة حسن</p>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">«من أول تواصل حتى آخر لحظة في حفلتي، تجربة ريمورا كانت راقية ومميزة. أنصح بيها كل عروس»</p>
+                    <p class="testimonial-author">— ليلى محمد</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الحجز -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">نحجز لك</span>
+                <h2 class="section-title">احجزي موعدك</h2>
+                <div class="title-divider"></div>
+            </div>
+            <div class="booking-form-container" data-aos="fade-up">
+                <form class="booking-form" id="bookingForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">الاسم الكامل *</label>
+                            <input type="text" id="name" name="name" required placeholder="اسمك الكامل">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني *</label>
+                            <input type="email" id="email" name="email" required placeholder="بريدك@example.com">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">رقم الجوال *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="+966 5X XXX XXXX">
+                        </div>
+                        <div class="form-group">
+                            <label for="event-type">نوع المناسبة *</label>
+                            <select id="event-type" name="event-type" required>
+                                <option value="">اختاري نوع المناسبة</option>
+                                <option value="engagement">خطوبة</option>
+                                <option value="katb-ketab">كتب كتاب</option>
+                                <option value="henna">ليلة الحناء</option>
+                                <option value="custom">مناسبة خاصة</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">تاريخ المناسبة *</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">عدد الضيوف</label>
+                            <input type="number" id="guests" name="guests" placeholder="50" min="10">
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">تفاصيل إضافية</label>
+                        <textarea id="message" name="message" rows="5" placeholder="أخبرينا عن رؤيتك وأي تفاصيل خاصة تودّين مشاركتها..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">إرسال طلب الحجز</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم إنستقرام -->
+    <section class="instagram" id="instagram">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">تابعينا</span>
+                <h2 class="section-title">أحدث أعمالنا</h2>
+                <div class="title-divider"></div>
+            </div>
+            <div class="instagram-grid">
+                <div class="instagram-item" data-aos="fade-up" onclick="openLightbox('images (1).jfif')"><img src="images (1).jfif" alt=""><div class="instagram-overlay"></div></div>
+                <div class="instagram-item" data-aos="fade-up" onclick="openLightbox('images (2).jfif')"><img src="images (2).jfif" alt=""><div class="instagram-overlay"></div></div>
+                <div class="instagram-item" data-aos="fade-up" onclick="openLightbox('images (3).jfif')"><img src="images (3).jfif" alt=""><div class="instagram-overlay"></div></div>
+                <div class="instagram-item" data-aos="fade-up" onclick="openLightbox('https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=1200&h=1200&fit=crop')"><img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=300&h=300&fit=crop" alt=""><div class="instagram-overlay"></div></div>
+                <div class="instagram-item" data-aos="fade-up" onclick="openLightbox('https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=1200&h=1200&fit=crop')"><img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=300&h=300&fit=crop" alt=""><div class="instagram-overlay"></div></div>
+                <div class="instagram-item" data-aos="fade-up" onclick="openLightbox('https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1200&h=1200&fit=crop')"><img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=300&h=300&fit=crop" alt=""><div class="instagram-overlay"></div></div>
+            </div>
+            <div class="instagram-follow" data-aos="fade-up">
+                <a href="https://www.instagram.com/_reemoraa_/" target="_blank" rel="noopener" class="btn btn-primary">تابعينا على إنستقرام @_reemoraa_</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- الأسئلة الشائعة -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">استفساراتك</span>
+                <h2 class="section-title">الأسئلة الشائعة</h2>
+                <div class="title-divider"></div>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item" data-aos="fade-up">
+                    <button class="faq-question">
+                        <span>كم مسبقاً يجب أن أحجز؟</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer"><p>ننصح بالحجز قبل المناسبة بشهرين إلى ثلاثة أشهر على الأقل لضمان التوفر والتخطيط الكافي. ومع ذلك يمكننا أحياناً استيعاب الحجوزات العاجلة حسب الجدول.</p></div>
+                </div>
+                <div class="faq-item" data-aos="fade-up">
+                    <button class="faq-question">
+                        <span>ماذا يشمل الحجز؟</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer"><p>كل باقة تشمل: الاستشارة، التصميم، الإعداد والتنسيق، وحضور فريقنا طوال المناسبة. يمكن تخصيص الباقات لتشمل خدمات إضافية حسب احتياجاتك.</p></div>
+                </div>
+                <div class="faq-item" data-aos="fade-up">
+                    <button class="faq-question">
+                        <span>هل تقدّمون تصاميم حناء لجميع الأذواق؟</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer"><p>بالتأكيد! فنانات الحناء لدينا يبدعن في التصاميم البسيطة الأنيقة والنقوش المعقدة التفصيلية على حدٍّ سواء. نناقش معك تفضيلاتك ونصمّم ما يناسبك.</p></div>
+                </div>
+                <div class="faq-item" data-aos="fade-up">
+                    <button class="faq-question">
+                        <span>هل يمكن تخصيص الطلبات؟</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer"><p>نعم! التخصيص هو جوهر ما نقدمه. نعمل عن كثب مع كل عميلة لتحويل رؤيتها الخاصة إلى حقيقة. تواصلي معنا لمناقشة احتياجاتك.</p></div>
+                </div>
+                <div class="faq-item" data-aos="fade-up">
+                    <button class="faq-question">
+                        <span>ما هي سياسة الإلغاء؟</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer"><p>الإلغاء قبل 30 يوماً يستحق استرداداً كاملاً. الإلغاء خلال 30 يوماً يخضع لرسوم خدمة بنسبة 50٪. الحالات الطارئة تُعالج بشكل فردي.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- تواصلي معنا -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">نحن هنا</span>
+                <h2 class="section-title">تواصلي معنا</h2>
+                <div class="title-divider"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <h3>الموقع</h3>
+                    <p>دمياط الزرقا، مصر</p>
+                </div>
+                <div class="contact-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    </div>
+                    <h3>الهاتف</h3>
+                    <p><a href="tel:+201013791517" style="color:inherit;">01013791517</a></p>
+                </div>
+                <div class="contact-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                    </div>
+                    <h3>البريد الإلكتروني</h3>
+                    <p>info@reemora.ae</p>
+                </div>
+                <div class="contact-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                    </div>
+                    <h3>واتساب</h3>
+                    <p><a href="https://wa.me/201013791517" target="_blank" style="color:inherit;">01013791517</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>REEMORA</h3>
+                    <p>خدمات تنسيق حفلات فاخرة وحناء راقية لأجمل مناسباتك وأعز لحظاتك.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#services">خدماتنا</a></li>
+                        <li><a href="#gallery">معرض الأعمال</a></li>
+                        <li><a href="#contact">تواصلي معنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>تابعينا</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/_reemoraa_/" target="_blank" rel="noopener">إنستقرام</a>
+                        <a href="#">فيسبوك</a>
+                        <a href="#">واتساب</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 REEMORA. جميع الحقوق محفوظة. | <a href="#">سياسة الخصوصية</a> | <a href="#">الشروط والأحكام</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- زر العودة للأعلى -->
+    <button class="back-to-top" id="backToTop">↑</button>
+
+    <!-- السكريبتات -->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/animations.js"></script>
+</body>
+</html>
